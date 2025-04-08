@@ -1,0 +1,172 @@
+.rubrik {
+    text-align: center;
+}
+
+.images{
+   size: 500px; 
+}
+
+#ajsar {
+    scale: 25%;
+    position: absolute;
+    top: -20%;
+    right: -9%;
+}
+
+#vänner {
+    scale: 120%;
+    position: absolute;
+    bottom: 6%;
+    right: 10%;
+}
+
+#spelar {
+    scale: 120%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+#plugga {
+    scale: 105%;
+    position: absolute;
+    bottom: 8%;
+    left: 40%;
+}
+
+body {
+    background-image: url(bak.jpg);
+    background-size: cover;
+    background-position: center;
+    bottom: 0%;
+}
+
+.skriva {
+    text-align: center;
+    top: 5%;
+}
+
+.knapp {
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    scale: 45%;
+    background-color: blue;
+}
+
+.rubrik2 {
+    text-align: center;
+}
+
+.knappspel {
+    scale: 75%;
+    position: absolute;
+    bottom: 20%;
+    right: 0%;
+}
+
+.knappprat {
+    scale: 75%;
+    position: absolute;
+    bottom: 20%;
+    left: 0%;
+}
+
+.knappplugg {
+    scale: 75%;
+    position: absolute;
+    bottom: 20%;
+    left: 31.5%;
+}
+
+#studie {
+    position: absolute;
+    scale: 150%;
+    bottom: 42%;
+    left: 15%;
+}
+
+#spel {
+    position: absolute;
+    scale: 150%;
+    bottom: 42%;
+    right: 15%;
+}
+
+#prat {
+    position: absolute;
+    scale: 200%;
+    bottom: 42%;
+    right: 47%;
+}
+
+.väljperson {
+    text-align: center;
+}
+
+
+.scroll-ruta {
+    position: absolute;
+    width: 200px;         
+    height: 150px;         
+    overflow-y: scroll;    
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    top: 20%;
+    left: 40%;
+}
+
+
+.lista {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+
+.lista li {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.lista li.selected {
+    background-color: #90EE90; 
+}
+
+.lista li:hover {
+    background-color: #ddd;
+}
+
+.val-ruta {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    top: 20%;
+    right: 42%;
+}
+
+.boka {
+    position: absolute;
+    bottom: 20%;
+    right: 33%;
+    scale: 80%;
+}
+
+.text37{
+    text-align: center;
+}
+
+.Tack {
+    text-align: center;
+}

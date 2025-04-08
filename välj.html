@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slut.css">
+</head>
+<body>
+    <div class="väljperson">
+    <h1>Skulle du vilja boka någon speciell att ha samtalet med</h1>
+    </div>
+
+    <div class="scroll-ruta" id="scroll-ruta">
+        <ul class="lista">
+            <li onclick="markAsSelected(this)">Valfri person</li>
+            <li onclick="markAsSelected(this)">David Andersson</li>
+            <li onclick="markAsSelected(this)">Karl Lundgren</li>
+            <li onclick="markAsSelected(this)">Anna Söderström</li>
+            <li onclick="markAsSelected(this)">Bert Karlsson</li>
+            <li onclick="markAsSelected(this)">Viktor Grönberg</li>
+            <li onclick="markAsSelected(this)">Sussan Olsson</li>
+        </ul>
+    </div>
+
+    <div id="val-ruta" class="val-ruta" style="display:none;" onclick="showListAgain()">
+        <p id="val-text">Du har valt ett alternativ</p>
+    </div>
+
+    <div class="boka"><button><a href="bokat.html">
+        <img src="knapp.avif" alt="kanpp"></a></button>
+
+    <script src="Slut.js"></script>
+    
+</body>
+</html>
