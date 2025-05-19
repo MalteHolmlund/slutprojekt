@@ -2,10 +2,6 @@
     text-align: center;
 }
 
-.images{
-   size: 500px; 
-}
-
 #ajsar {
     scale: 25%;
     position: absolute;
@@ -51,7 +47,6 @@ body {
     top: 35%;
     left: 32%;
     scale: 45%;
-    background-color: blue;
 }
 
 .rubrik2 {
@@ -168,5 +163,16 @@ body {
 }
 
 .Tack {
+    text-align: center;
+}
+
+#Glad{
+    scale: 120%;
+    position: absolute;
+    top: 40%;
+    right: 40%;
+}
+
+.tillbaka{
     text-align: center;
 }
